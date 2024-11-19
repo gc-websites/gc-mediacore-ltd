@@ -9,8 +9,8 @@ function App() {
   return (
     <>
       <div>
-        <a>
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+        <a href="hkj">
+          <img src={viteLogo} className="logo" />
         </a>
         <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
@@ -28,6 +28,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <img src="fgh" />
     </>
   );
 }
