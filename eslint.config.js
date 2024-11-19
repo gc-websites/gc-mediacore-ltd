@@ -18,14 +18,14 @@ export default [
     },
     settings: {
       react: {
-        version: 'detect', // Automatically detects the React version
+        version: 'detect',
       },
     },
     rules: {
       ...tseslint.configs.recommended.rules,
       ...pluginReact.configs.recommended.rules,
-      'react/react-in-jsx-scope': 'off', // Disables the rule
+      'react/react-in-jsx-scope': 'off',
     },
   },
-  prettier, // Prettier config
+  prettier,
 ];
