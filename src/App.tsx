@@ -1,10 +1,8 @@
-import './App.css';
-
 function App() {
   return (
-    <>
-      <h1 className="size-fit">HI FROM EMPTY TEMPLATE</h1>
-    </>
+    <div className="flex justify-center items-center h-screen">
+      <h1 className="text-4xl">HI FROM EMPTY TEMPLATE</h1>
+    </div>
   );
 }
 
