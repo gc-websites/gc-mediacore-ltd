@@ -27,10 +27,10 @@ const Feedback = () => {
               </div>
             </div>
             <p className="card__description">
-              &quot;Partnering with Digital Spark has been a game-changer for
-              our business. Their tailored approach to SEO and PPC advertising
-              has increased our website traffic and lead generation by over 300%
-              in just six months. Their team’s insights and dedication make them
+              &quot;Partnering with GC Mediacore has been a game-changer for our
+              business. Their tailored approach to SEO and PPC advertising has
+              increased our website traffic and lead generation by over 300% in
+              just six months. Their team’s insights and dedication make them
               invaluable partners in our growth journey.&quot;
             </p>
             <div className="feedback__rating">
@@ -52,7 +52,7 @@ const Feedback = () => {
               </div>
             </div>
             <p className="card__description--main">
-              &quot;Digital Spark understands our brand and goals like no other.
+              &quot;GC Mediacore understands our brand and goals like no other.
               Their social media and content marketing strategies have not only
               expanded our online presence but also fostered stronger engagement
               with our audience. Thanks to their expertise, we’re seeing
@@ -76,7 +76,7 @@ const Feedback = () => {
             </div>
             <p className="card__description">
               &quot;I couldn’t be happier with the results we’ve achieved with
-              Digital Spark. Their data-driven approach to email marketing and
+              GC Mediacore. Their data-driven approach to email marketing and
               targeted ads has significantly boosted our conversion rates. Our
               audience engagement has improved, and the ROI speaks for itself. I
               highly recommend them to any business looking to grow

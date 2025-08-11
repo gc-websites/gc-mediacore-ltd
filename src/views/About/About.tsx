@@ -15,7 +15,7 @@ const About = () => {
         <div className="about__wrapper">
           <div className="about__card">
             <p className="about__subtitle">
-              At Digital Spark, we understand that every business is unique.
+              At GC Mediacore, we understand that every business is unique.
               That’s why we take a customized approach to digital marketing. Our
               team combines cutting-edge tools, data-driven strategies, and
               industry expertise to help you achieve measurable success.

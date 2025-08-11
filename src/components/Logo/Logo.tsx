@@ -8,7 +8,7 @@ const Logo = ({ className = '' }: LogoProps) => {
   return (
     <a href="/" className={`logo__link ${className}`}>
       <h2 className="logo__title">
-        GC <span className="logo__span">MEDIACORE</span> LTD
+        GC <span className="logo__span">MEDIACORE</span>
       </h2>
     </a>
   );
