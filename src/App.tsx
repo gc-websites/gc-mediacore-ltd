@@ -1,8 +1,19 @@
+import Layout from './layout/Layout/Layout';
+import About from './views/About/About';
+import Feedback from './views/Feedback/Feedback';
+import Hero from './views/Hero/Hero';
+import Partner from './views/Partner/Partner';
+import Services from './views/Services/Services';
+
 function App() {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <h1 className="text-4xl">HI FROM EMPTY TEMPLATE</h1>
-    </div>
+    <Layout>
+      <Hero />
+      <Services />
+      <About />
+      <Feedback />
+      <Partner />
+    </Layout>
   );
 }
 

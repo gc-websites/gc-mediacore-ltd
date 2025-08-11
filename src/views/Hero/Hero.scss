@@ -1,0 +1,148 @@
+.hero__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.hero__title {
+  max-width: 1084px;
+  color: #292929;
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 81px;
+
+  @media screen and (max-width: 768px) {
+    max-width: 384px;
+    font-size: 38px;
+    line-height: normal;
+  }
+}
+
+.hero__subtitle {
+  max-width: 765px;
+  text-align: center;
+  color: #292929;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+  @media screen and (max-width: 768px) {
+    max-width: 383px;
+    font-size: 14px;
+  }
+}
+
+.hero__stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+  }
+}
+
+.stats__container {
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.stats__title {
+  color: #292929;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  &--revenue {
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+    color: #292929;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  &--span {
+    display: flex;
+    column-gap: 6px;
+    align-items: center;
+  }
+}
+
+.stats__number {
+  color: #2A5BF6;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  &--revenue {
+    color: #292929;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+.stats__columns {
+  display: flex;
+  column-gap: 15px;
+  align-items: flex-end;
+}
+
+.hero__clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  align-self: self-end;
+
+  @media screen and (max-width: 1024px) {
+    align-self: center;
+  }
+}
+
+.clients__photos {
+  display: flex;
+  align-items: center;
+}
+
+.clients__avatar {
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: -6px;
+  border: 2px solid #fff;
+}
+
+.clients__avatar:first-child {
+  margin-left: 0;
+}
+
+.clients__subtitle {
+  max-width: 225px;
+  color: #292929;
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
